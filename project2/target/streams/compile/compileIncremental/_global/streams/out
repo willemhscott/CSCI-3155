@@ -1,0 +1,38 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 89 products, 8 sources, 3 libraries
+[debug] current source = Set(${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/LettuceParser.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/ASTGrammar.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/TestPrograms.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/Value.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/Environment.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/CanvasRenderTest.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/Interpreter.scala, ${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/MyCanvas.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/Interpreter.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/Interpreter.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(edu.colorado.csci3155s2021.project2.Interpreter)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(edu.colorado.csci3155s2021.project2.Interpreter)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/edu/colorado/csci3155s2021/project2/Interpreter.scala)
+[debug] Initial set of included nodes: edu.colorado.csci3155s2021.project2.Interpreter
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.4:compile for Scala 2.12.10
+[debug] [zinc] Running cached compiler 4c320051 for Scala compiler version 2.12.10
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+[debug] 	-classpath
+[debug] 	C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\target\scala-2.12\classes;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-swing_2.12\2.0.3\scala-swing_2.12-2.0.3.jar;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.12\1.1.1\scala-parser-combinators_2.12-1.1.1.jar;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.12\3.0.8\scalactic_2.12-3.0.8.jar;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.10\scala-reflect-2.12.10.jar
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 7.4435199 s
+[info] done compiling

@@ -1,0 +1,7 @@
+[debug] Acquiring lock on file C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\project\target\.sbt-compilation-infos\project2-compile\.sbt-idea-lock ...
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\src\main\scala\edu\colorado\csci3155s2021\project2\Interpreter.scala:60:52: match may not be exhaustive.
+[warn] It would fail on the following input: ConstBool(_)
+[warn]   def evalExpr(e: Expr, env: Environment): Value = e match {
+[warn]                                                    ^
+[warn] one warning found
+[debug] Releasing lock on file C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\project\target\.sbt-compilation-infos\project2-compile\.sbt-idea-lock.

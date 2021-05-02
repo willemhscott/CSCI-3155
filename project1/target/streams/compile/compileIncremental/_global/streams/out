@@ -1,0 +1,47 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 56 products, 5 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/Main.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/Expr.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/Environment.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/classes/edu/colorado/csci3155/project1/StackMachineEmulator$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.12/classes/edu/colorado/csci3155/project1/StackMachineEmulator$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(edu.colorado.csci3155.project1.LoadIns, edu.colorado.csci3155.project1.LogIns, edu.colorado.csci3155.project1.StoreIns, edu.colorado.csci3155.project1.StackMachineInstruction, edu.colorado.csci3155.project1.SubIns, edu.colorado.csci3155.project1.MultIns, edu.colorado.csci3155.project1.AddIns, edu.colorado.csci3155.project1.PopIns, edu.colorado.csci3155.project1.DivIns, edu.colorado.csci3155.project1.StackMachineEmulator, edu.colorado.csci3155.project1.CosIns, edu.colorado.csci3155.project1.SinIns, edu.colorado.csci3155.project1.ExpIns, edu.colorado.csci3155.project1.PushIns)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(edu.colorado.csci3155.project1.LoadIns, edu.colorado.csci3155.project1.LogIns, edu.colorado.csci3155.project1.StoreIns, edu.colorado.csci3155.project1.StackMachineInstruction, edu.colorado.csci3155.project1.SubIns, edu.colorado.csci3155.project1.MultIns, edu.colorado.csci3155.project1.AddIns, edu.colorado.csci3155.project1.PopIns, edu.colorado.csci3155.project1.DivIns, edu.colorado.csci3155.project1.StackMachineEmulator, edu.colorado.csci3155.project1.CosIns, edu.colorado.csci3155.project1.SinIns, edu.colorado.csci3155.project1.ExpIns, edu.colorado.csci3155.project1.PushIns)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala)
+[debug] Initial set of included nodes: edu.colorado.csci3155.project1.LoadIns, edu.colorado.csci3155.project1.LogIns, edu.colorado.csci3155.project1.StoreIns, edu.colorado.csci3155.project1.StackMachineInstruction, edu.colorado.csci3155.project1.SubIns, edu.colorado.csci3155.project1.MultIns, edu.colorado.csci3155.project1.AddIns, edu.colorado.csci3155.project1.PopIns, edu.colorado.csci3155.project1.DivIns, edu.colorado.csci3155.project1.StackMachineEmulator, edu.colorado.csci3155.project1.CosIns, edu.colorado.csci3155.project1.SinIns, edu.colorado.csci3155.project1.ExpIns, edu.colorado.csci3155.project1.PushIns
+[debug] Including edu.colorado.csci3155.project1.SubIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.MultIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.AddIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.PopIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.DivIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.CosIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.SinIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.ExpIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] Including edu.colorado.csci3155.project1.PushIns by edu.colorado.csci3155.project1.StackMachineInstruction
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\henry\Downloads\project1\project1\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.4:compile for Scala 2.12.10
+[debug] [zinc] Running cached compiler ffffffffd4aa9869 for Scala compiler version 2.12.10
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\lib\se-service.jar;C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\lib\rt.jar;C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\lib\resources.jar;C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\lib\jsse.jar;C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\lib\charsets.jar;C:\Users\henry\.jdks\adopt-openj9-1.8.0_282\jre\lib\jce.jar;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+[debug] 	-classpath
+[debug] 	C:\Users\henry\Downloads\project1\project1\target\scala-2.12\classes;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.12\3.0.8\scalactic_2.12-3.0.8.jar;C:\Users\henry\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.10\scala-reflect-2.12.10.jar
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 7.206036 s
+[info] done compiling

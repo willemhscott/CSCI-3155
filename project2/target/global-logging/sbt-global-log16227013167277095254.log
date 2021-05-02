@@ -1,0 +1,12 @@
+[debug] > Exec(checkAndZipSubmission, None, None)
+[debug] Evaluating tasks: checkAndZipSubmission
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\target\scala-2.12\classes ...
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project2\src\main\scala\edu\colorado\csci3155s2021\project2\Interpreter.scala:60:52: match may not be exhaustive.
+[warn] It would fail on the following input: ConstBool(_)
+[warn]   def evalExpr(e: Expr, env: Environment): Value = e match {
+[warn]                                                    ^
+[warn] one warning found
+[info] done compiling
+[success] Total time: 10 s, completed Apr 7, 2021, 9:17:31 PM
+[debug] > Exec(idea-shell, None, None)

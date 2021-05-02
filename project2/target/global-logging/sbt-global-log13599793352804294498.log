@@ -1,0 +1,8 @@
+[debug] > Exec(checkAndBuildSubmission, None, None)
+[error] Not a valid command: checkAndBuildSubmission
+[error] Not a valid project ID: checkAndBuildSubmission
+[error] Expected ':'
+[error] Not a valid key: checkAndBuildSubmission (similar: checkAndZipSubmission, checkBuildSources)
+[error] checkAndBuildSubmission
+[error]                        ^
+[debug] > Exec(idea-shell, None, None)

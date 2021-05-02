@@ -1,0 +1,34 @@
+[debug] > Exec(run build, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.10. Compiling...
+[info]   Compilation completed in 11.389s.
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\src\main\scala\edu\colorado\csci3155s2021\project2\Interpreter.scala:60:52: match may not be exhaustive.
+[warn] It would fail on the following input: ConstBool(_)
+[warn]   def evalExpr(e: Expr, env: Environment): Value = e match {
+[warn]                                                    ^
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\src\main\scala\edu\colorado\csci3155s2021\project2\LettuceParser.scala:46:60: match may not be exhaustive.
+[warn] It would fail on the following input: ~(_, Some(_))
+[warn]         val opt5 = exprLev2~ opt(("&&"|"||") ~ exprLev1)^^ {
+[warn]                                                            ^
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\src\main\scala\edu\colorado\csci3155s2021\project2\LettuceParser.scala:64:50: match may not be exhaustive.
+[warn] It would fail on the following input: ~(_, Some(_))
+[warn]         exprLev3 ~ opt(compOperator~ exprLev2) ^^{
+[warn]                                                  ^
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\src\main\scala\edu\colorado\csci3155s2021\project2\LettuceParser.scala:76:52: match may not be exhaustive.
+[warn] It would fail on the following input: ~(_, Some(_))
+[warn]         exprLev4 ~ opt( ("+"| "-") ~ exprLev3 ) ^^ {
+[warn]                                                    ^
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\src\main\scala\edu\colorado\csci3155s2021\project2\LettuceParser.scala:85:49: match may not be exhaustive.
+[warn] It would fail on the following input: ~(_, Some(_))
+[warn]         exprLev5 ~ opt(("*"|"/") ~ exprLev4) ^^ {
+[warn]                                                 ^
+[warn] C:\Users\henry\PycharmProjects\csci3155_notebooks\project4\src\main\scala\edu\colorado\csci3155s2021\project2\LettuceParser.scala:98:98: match may not be exhaustive.
+[warn] It would fail on the following input: ~((x: String forSome x not in ("!", "circle", "line", "rectangle", "triangle")), _)
+[warn]           ( ( "rectangle" | "triangle" | "circle" | "line" | "!"  ) ~ ("(" ~> exprLev1 <~ ")") ^^{
+[warn]                                                                                                  ^
+[warn] 6 warnings found
+[info] done compiling
+[success] Total time: 135 s (02:15), completed Apr 7, 2021, 9:10:35 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,5 @@
+[debug] > Exec(checkAndZipSubmission, None, None)
+[debug] Evaluating tasks: checkAndZipSubmission
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Mar 8, 2021 6:20:07 PM
+[debug] > Exec(idea-shell, None, None)

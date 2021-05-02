@@ -1,0 +1,25 @@
+[debug] Running TaskDef(edu.colorado.csci3155.project1.CompilerTest, org.scalatest.tools.Framework$$anon$1@1b3c602b, false, [SuiteSelector])
+[debug] Running TaskDef(edu.colorado.csci3155.project1.StackMachineTest, org.scalatest.tools.Framework$$anon$1@1b3c602b, false, [SuiteSelector])
+[info] StackMachineTest:
+[info] - stack machine test 1
+[info] - stack machine test 2
+[info] - stack machine test 3
+[info] - stack machine test 4
+[info] - stack machine test 5
+[info] CompilerTest:
+[info] - simple expression 1
+[info] - simple expression 2
+[info] - simple expression 3
+[info] - simple expression 4
+[info] - LetBinding + Ident Test 1
+[info] - LetBinding + Ident Test 2
+[info] - LetBinding + Ident Test 3
+[info] - LetBinding + Ident Test 4
+[info] Run completed in 234 milliseconds.
+[info] Total number of tests run: 13
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	edu.colorado.csci3155.project1.CompilerTest
+[debug] 	edu.colorado.csci3155.project1.StackMachineTest
